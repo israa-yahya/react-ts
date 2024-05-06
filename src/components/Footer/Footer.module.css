@@ -1,0 +1,29 @@
+.footer {
+  width: 100%; /* Full width */
+  background-color: #32325d;
+}
+
+.footer_content {
+  color: #8789cd;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 30px 0;
+  max-width: 90%;
+  margin: auto;
+}
+
+.footer .footer_content ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer .footer_content ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.footer .footer_content .icons a {
+  color: #8789cd;
+}

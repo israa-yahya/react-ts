@@ -1,0 +1,90 @@
+
+  .menu-icon {
+    display: none;
+  }
+  .icon{
+    color: white;
+  }
+  .logo {
+    color: white;
+    position: absolute;
+    left: 2rem;
+  }
+  .navbar {
+    background-color: #32325d;
+    height: 5rem;
+    display: flex;
+    justify-content: center; /* Center vertically */
+    align-items: center; /* Center horizontally */
+    justify-content:flex-end; /* Align content to the left */
+
+  }
+ .faEarthAmericas{
+  color:#fff;
+  cursor: pointer;
+ }
+  .navbar_content {
+    line-height: 17px;
+    display: flex;
+    margin-right: 40px;
+  }
+  span{
+    color: #fff;
+    margin-left: 4px;
+  }
+  
+  
+  
+
+  .navbar a {
+    color: #8789cd;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 21px;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+  /* Navbar.module.css */
+
+.button {
+  background-color: #32325d;
+  color: #8789cd;
+
+  /* color: #fff; */
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  margin-right: 20px;
+  /* padding: 20px; */
+}
+
+.button:hover {
+  /* color: #8789cd; */
+  color: #fff;
+
+}
+
+  @media (max-width: 768px) {
+   
+    .navbar_content {
+      display: block;
+      position: absolute;
+      right: 0;
+    }
+    .navbar_content {
+      display: none; /* Hide menu content by default on small screens */
+    }
+  
+    /* Adjustments for menu icon */
+    .menu-icon {
+      display: block; /* Show menu icon on small screens */
+      cursor: pointer;
+      padding: 10px;
+    }
+    .navbar_content {
+      display: none; /* Hide menu content by default on small screens */
+    }
+
+  }
+  /* Media Query for small screens */
+  
