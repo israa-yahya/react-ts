@@ -1,0 +1,20 @@
+{
+    "blogs": "Blogs",
+    "addBlogs": "Add Blogs",
+    "totalLiked": "Total Liked",
+    "totalUnliked": "Total Unliked",
+    "loading": "Loading...",
+    "error": "Error:",
+    "currentlyBlogs": "Currently Blogs:",
+    "editBlogs": "Edit Blogs",
+    "viewDetails": "View Details",
+    "liked": "Liked",
+    "unliked": "Unliked",
+    "delete": "Delete",
+    "title": "Title (maximum 50 characters, letters only)",
+    "description": "Description (maximum 500 characters)",
+    "footer": "© 2024 Onextrapixel. Handcrafted in Singapore. All Rights Reserved.",
+    "submit": "Submit",
+    "readmore": "read more.. "
+
+}

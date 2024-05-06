@@ -1,0 +1,167 @@
+/* BlogDetails.module.css */
+
+.card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    height: 360px; /* Set the height of the card */
+
+
+  }
+  
+  .card h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .card p {
+    color: #666;
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+   
+  }
+  /*  */
+  .blog_item {
+    width: calc(
+      31% - 40px
+    ); /* Adjust width to fit three items per line with spacing */
+    padding: 20px; /* Add padding to create space between content and border */
+    margin-bottom: 20px; /* Add margin to create space between blog items */
+    border-radius: 5px; /* Add rounded corners */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+    display: inline-block; /* Display as inline-block to fit three items per row */
+    vertical-align: top; /* Align items to the top of the container */
+    margin-right: 20px; /* Add spacing between blog items */
+    margin-left: 0; /* Remove left margin for the first item in each row */
+  }
+  .blog_item h2 {
+    font-size: 18px; /* Adjust heading size */
+    margin-bottom: 10px; /* Add spacing between heading and description */
+  }
+  
+  .blog_item p {
+    font-size: 16px; /* Adjust paragraph size */
+    color: #333; /* Adjust text color */
+    line-height: 1.5; /* Adjust line height for readability */
+  }
+  .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .blog_item img {
+    max-width: 100%;
+    height: 220px;
+    border: 0;
+  }
+  
+  .description {
+    margin-top: 20px;
+  }
+  .content .description h2 {
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+  }
+  .content .description p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+  }
+  .likeButton,
+  .unlikeButton {
+    /* Your existing styles for the like buttons */
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 8px 16px;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  /* Form.module.css */
+  .likeButton {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .unlikeButton {
+    background-color: #dc3545;
+    color: #fff;
+  } /* Box.module.css */
+  
+  /* Styles for the delete button */
+  .deleteButton,
+  .editButton {
+    background-color: #8d8585; /* Red */
+    color: white;
+    border: none;
+    padding: 4px 8px;
+    font-size: 13px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    /* margin-top: 10px; */
+  }
+  
+  
+  /* Button.module.css */
+  
+  .viewDetailsButton {
+    /* padding: 5px 10px; */
+    background-color: #fff;
+    border: 1px solid #fff;
+    /* color: ; */
+    /* border-radius: 5px; */
+    cursor: pointer;
+    /* transition: background-color 0.3s ease; */
+    margin-bottom: 10px;
+  }
+  
+  /* .viewDetailsButton:hover {
+    background-color: #535557;
+  } */
+  
+  /* Styles for the trash icon */
+  
+  .btn {
+    display: flex;
+    justify-content: space-between;
+  }
+  @media (max-width: 768px) {
+    .blog_item {
+      width: 100%;
+    }
+    .blog_item h2 {
+      font-size: 16px; /* Adjust heading size */
+      margin-bottom: 10px; /* Add spacing between heading and description */
+    }
+  
+    .blog_item p {
+      font-size: 14px; /* Adjust paragraph size */
+      color: #333; /* Adjust text color */
+      line-height: 1; /* Adjust line height for readability */
+    }
+    .likeButton,
+    .unlikeButton {
+      font-size: small;
+    }
+    .deleteButton {
+      font-size: xx-small;
+    }
+  }
+  

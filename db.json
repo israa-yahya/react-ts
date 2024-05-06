@@ -1,0 +1,48 @@
+{
+  "blogsEn": [
+    {
+      "title": "News For Nablus",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce euismod ligula id malesuada placerat.ggggggggggggggggggggggggggg",
+      "liked": 0,
+      "unliked": 1,
+      "id": "c4ca"
+    },
+    {
+      "title": "News For Jenin",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce euismod ligula id malesuada placerat.",
+      "id": "c9ca",
+      "liked": 0,
+      "unliked": 1
+    },
+    {
+      "title": "News For Palestine",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce euismod ligula id malesuada placerat.",
+      "id": "c7ca",
+      "liked": 1,
+      "unliked": 0
+    }
+  ],
+  "blogsAr": [
+    {
+      "title": "أخبار مدينة نابلس",
+      "description": " لوريم إيبسوم دولور سيت أميت لنص الافتراضي  لوريم إيبسوم دولور سيت أميت لنص الافتراضي  لوريم إيبسوم دولور سيت أميت لنص الافتراضي ",
+      "liked": 0,
+      "unliked": 1,
+      "id": "c4cf"
+    },
+    {
+      "title": "أخبار مدينة جنين ",
+      "description": " لوريم إيبسوم دولور سيت أميت لنص الافتراضي ",
+      "id": "c9ck",
+      "liked": 0,
+      "unliked": 1
+    },
+    {
+      "title": "أخبار فلسطين ",
+      "description": " لوريم إيبسوم دولور سيت أميت لنص الافتراضي ",
+      "id": "c4cr",
+      "liked": 1,
+      "unliked": 0
+    }
+  ]
+}
